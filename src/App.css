@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.poster-card {
+  text-align: center;
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.poster-card:hover {
+  transform: scale(1.05);
+}
+
+.poster-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

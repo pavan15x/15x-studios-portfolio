@@ -1,0 +1,20 @@
+{
+  "name": "15xstudios_portfolio",
+  "version": "1.0.0",
+  "description": "15X Studios - Portfolio Site",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-image-lightbox": "^5.1.4",
+    "yet-another-react-lightbox": "^3.23.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.4.18"
+  }
+}
